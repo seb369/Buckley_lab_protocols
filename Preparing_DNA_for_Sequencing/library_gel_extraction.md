@@ -5,10 +5,8 @@ Gel extraction protocol
 
 Chantal Koechli, and Nick Youngblut (2011-2014)
 
-## Updates
+Updated: Cassi Wattenburger 4/20/18 (increased amount of SybrSafe and gel dye to add, voltage)
 
-Cassandra Wattenburger (2018)
-* changed dye concentrations (too low before)
 
 ## Printing this protocol
 
@@ -23,7 +21,7 @@ some modifications
 ## Gel
 
 * 1.5% low melt agarose gel with SybrSafe
-* ~35V for 1-1.5 hrs
+* ~75V for 1-1.5 hrs (needs updating on time frame)
 
 
 ## Gel clean-up kit modifications
@@ -44,15 +42,16 @@ SybrSafe.
 	* Make 75 mL of agarose solution
 		* Large volume needed to cast a gel with deep wells. 
 	* 1.12 g of low melt agarose
-	* 7.5 ul of SyberSafe
+	* 7.5 ul of SybrSafe
 
-1. Add 20 uL of 6x loading dye to each concentrated 100 uL sample and mix well.
+1. Add 20 uL of loading dye (6x concentration) to each concentrated 100 uL sample and mix well. 
+	* Mix thoroughly
 
-1. Load 55 uL of the sample into an individual well until all the sample is loaded. 
+1. Load 50-55 uL of the sample into an individual well until all the sample is loaded. 
 	* Use 7.5 ul of 100 bp ladder in the 1st lane (+1.5 ul of 6X loading dye).
 
-1. Run the gel at ~35 volts for ~1.5 hours. 
-	* It is OK to run the gel at a higher voltage (~70) for a shorter time frame.
+1. Run the gel at ~75 volts for ~1.5 hours.
+	* Lower voltage gives crisper bands, but takes much longer.
 
 1. Pre-weight 2 mL microcentrifuge tubes (1 per sample).
 

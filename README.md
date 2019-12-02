@@ -20,9 +20,6 @@ We will make an effort to keep this up to date but please note that some protoco
 
 ## Directories
 
-### [Soil chemistry](./Soil_chemistry)
-Protocols for measuring characteristics of soil.
-
 ### [DNA extraction](./DNA_extraction)
 Protocols for extracting DNA and RNA from soil.
 
@@ -33,21 +30,35 @@ Protocols for running DNA on a gel including gel excision, size selection and Bl
 Protocols, scripts, and methods related to DNA amplification with PCR.
 
 ### [Preparing DNA for sequencing](./Preparing_DNA_for_Sequencing)
-Protocols for preparing DNA for sequencing. Most are protocols work with post-PCR DNA.
+Protocols for preparing DNA (post-PCR) for sequencing.
+
+### [Amplicon library processing](/amplicon_library_processing)
+Scripts for processing raw sequence reads from Illumina MiSeq.
+
+### [Robot](/robot)
+Spreadsheets and directions for using the robot.
+
+### [HR-SIP](./HRSIP)
+Protocols for conducting an HR-SIP experiment.
 
 ### [GCMS](./GCMS)
-Protocols for using the Buckley lab GCMS. Also includes scripts for GCMS data processing.
+Protocols for using the Buckley lab GC/MS. Also includes scripts for GC/MS data processing.
+
+### [Soil chemistry](./Soil_chemistry)
+Protocols for measuring chemical and physical characteristics of soil.
+
+### [PLFA](./PLFA)
+Protocols for conducting phospholipid fatty acid extraction in lab.
+
+### [Working in lab](./Working_in_lab)
+Guidelines for conducting oneself in lab.
 
 ### [Using the server](./Using_the_server)
-This directory contains information reguarding use of the Buckley Lab server. This includes the following topics:
-* General server use
-* Git
-* Jupyter Notebooks
-* R
-* Administration
+Guidelines and directions for using the Buckley Lab server.
 
 ### [Lab equipment](./lab_equipment)
 Manuals and protocols for using some of the Buckley Lab equipment including:
  * SpeedVac: Used for DNA concentration
  
-
+### [Previous experiments](./previous_experiments)
+Notes and protocols from past experiments.
