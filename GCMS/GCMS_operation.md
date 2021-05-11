@@ -5,6 +5,8 @@ Protocol for quantifying CO2 in headspace samples with the Shimadzu GCMS-QP2010
 
 Ashley Campbell, Chantal Koechli, Nick Youngblut and Sam Barnett (2016)
 
+Updated 2021 by Cassi Wattenburger (more details)
+
 
 ## Printing this protocol
 
@@ -35,6 +37,18 @@ This can be done using the GCMS software.
 
 ## Procedure:
 
+### Prior to start up:
+1. Change carrier gas tank if low (easier to do when GCMS is off)
+	* See protocol to change carrier gas tank below but skip turning off the flow control step
+
+1. Change oil if low
+	1. xxx
+
+1. Change the glass insert if it has exceeded 1000
+	* See protocol to change the glass insert below, but skip turning off the flow control step
+
+### Turn equipment on
+
 1. Turn on carrier gas (should be Helium)
 	* The PSI should be ~100
 1. Turn on Shimadzu AOC-5000 Auto Injector (switch on power unit in back)
@@ -45,8 +59,8 @@ This can be done using the GCMS software.
 
 ### The next steps are done in GCMS Real Time Analysis software
 
-1. From top screen, select __Vacuum control__ 
-1. Use the manual startup ("Advanced" on Vacuum control window)
+1. From top screen, select __Instrument > Vacuum Control > Advanced__ 
+1. Do manual startup
 	* Manual startup provides more control, 
 	option for safety checks, 
 	and may produce less wear and tear.
@@ -63,10 +77,11 @@ This can be done using the GCMS software.
 			* Wait for vacuum to return and stabilize before moving on
 	    1. Turn on ion source heater
 			* GC and MS indicators in top right of screen should soon say 'ready'
-	    1. Wait at least 24 hours before running samples on GCMS.
+	    1. Wait at least 24 hours before running samples on GCMS
 			* This allows for any contaminating air in system to be purged
 1. Run GCMS tuning proceedure
-1. Load a method or create a new method
+2. Run leak check procedure
+3. Load a method or create a new method
 	* Make sure that GC and MS are heating up to the method's specified temps
 	* A batch file can then be created if needed
 
@@ -82,7 +97,7 @@ wait ~1 day prior to tuning.
 
 ## Procedure:
 
-* Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
+Follow procedure starting on Page 21 of the GCMS-QP2010 Operation Guide.
 
 1. Open GCMS Real Time Analysis software 
 1. On left hand side bar, click Tuning icon
@@ -109,7 +124,7 @@ wait ~1 day prior to tuning.
 
 * The septum can be changed while the GC is on.
 The carrier gas flow will just need to be turned
-off very briefly prior to changing the septum.
+off very briefly prior to changing the septum. See protocol below.
 
 ## Procedure:
 
@@ -123,19 +138,19 @@ off very briefly prior to changing the septum.
 	* Must have a new file for each subsequent runs, even if you are running a time series
 1. Copy and paste methods file specified in you batch file into your new run folder
 	* If methods file is not in the same folder as the batch file, your samples will not be run
-1. For each run replace septa on injection port
+1. For each run (or after 100 punctures) replace septa on injection port
 	* This must be done quickly as carrier gas flow must be stopped
 	* It may be easier to remove grill from top of GCMS in case you drop one of the small parts
 	* Use work gloves while replacing septa as the injection port is VERY HOT!!!
 	* Septa replacement
-		1. Open vacuum control and click "advanced"
+		1. Open Instrument > Vacuum Control > advanced
 		1. Turn off flow controller to stop flow of carrier gas
-		1. With work gloves unscrew red sealing cover
-		1. Remove T-shaped adapter
+		1. With work gloves unscrew metal sealing cover
+		1. Remove T-shaped adapter (easiest to do with tweezers so you don't drop it)
 		1. With tweezers remove old septa and place in "Used Septa" jar
 		1. With tweezers place new septa in hole being careful not to deform or puncture septa
-		1. Place T-shaped adaptor on top of septa
-		1. Screw red sealing cover back on
+		1. Carefully place T-shaped adaptor on top of septa
+		1. Screw metal sealing cover back on
 			* Be sure not to tighten too hard as this may deform septa and result in leaks or easy coring
 		1. Restart flow controller
 1. Reset septa consumables by double clicking septa icon on right hand toolbar, clicking "Reset Consumables" and clearing value for septa
@@ -146,6 +161,36 @@ off very briefly prior to changing the septum.
 
 ***
 
+# Changing the carrier gas tank while GCMS is on
+
+If the carrier gas tank approaches 500 PSI during an experiment, it should be switched out for a new tank.
+
+Note: Work quickly and with a partner if possible so that the flow controller is off for as little time as possible.
+
+1. Instrument > Vacuum Control > Advanced > Turn off Flow Controller
+2. Close carrier tank valve
+3. Loosen the regulator using a wrench and turning counter-clockwise
+4. Hold the regulator and column carefully while you switch out tanks, trying not to jostle or bump the column
+5. Tighten the regulator back on to the new tank by turning clockwise with a wrench as tightly as you can
+6. Open the carrier gas tank and use soapy water to check for any leaks
+	* Slowly squirt onto the connection between the regulator and tank, if bubbles appear and then expand, there is a leak and the connection must be tightened
+7. Turn the Flow Controller back on
+
+***
+
+# Changing the glass insert while the GCMS is on
+
+The injection port glass liner should be switched out every 1000 runs.
+
+1. See pg. XXX of the GCMS-QP2010 Operation Guide
+2. using tweezers and gloves, place 10 mg of glass wool into a new glass liner according to instructions in guide
+3. In software, Instrument > Vacuum Control > Advanced > turn off Flow Controller
+4. Remove hood of GCMS
+5. xxxxx
+6. xxxxx
+
+***
+
 # GCMS shut down
 
 * GCMS shut down is almost the reverse of the startup.
@@ -153,7 +198,7 @@ off very briefly prior to changing the septum.
 ## Procedure:
 
 ### The first steps are done in GCMS Real Time Analysis software
-* Use manual shutdown.
+* Use manual shutdown, Instrument > Vacuum Control > Advanced
 	* Auto shutdown does not give enough time between the turbo molecular pump shutdown
 	and the vacuum pump shutdown. 
 	* Manual shutdown procedure:
@@ -179,7 +224,7 @@ off very briefly prior to changing the septum.
 
 * The blue septa may provide a better seal than the green septa (for higher temps).
 * The rotory vacuum oil should be changed every 6 months.
-* Replate the injection port glass liner (contains glass wool) after ~1000 injections.
+* Replace the injection port glass liner (contains glass wool) after ~1000 injections.
 	* This helps prevent the liner from fusing to the injection port.
 	
 *** 
@@ -188,7 +233,7 @@ off very briefly prior to changing the septum.
 
 ## Autosampler
 
-* Service is need every ~2 years.
+* Service is needed every ~2 years.
 * Do not lubricate anything besides the guide rails in the horizontal portion. 
 	* Lubricating other components will likely break them.
 * You can find videos on how to perform maintenance by googling 'leap autosampler'.
